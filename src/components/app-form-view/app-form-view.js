@@ -33,7 +33,7 @@ function AppFormView() {
             <li key={item.name} className="list-group-item list-group-item-action list-group-item-success" draggable onDragStart={(e)=>drag(e,item)}>{item.name}</li>
     );
     const formView = <div className="card card-outline-primary mb-3" onDrop={drop} onDragOver={allowDrop}>
-        <div className="card-header card-inverse card-primary">Drop the controls on the form!</div>
+        <div className="card-header card-inverse card-primary">Drop the controls on the form!!!!</div>
         <div className="card-block scroll-list formview" id="formContent">
             <form>
                 {
